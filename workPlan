@@ -1,0 +1,32 @@
+# Work Plan to Include Mixed Precision in the Project
+
+## Month 1 (April 26 - May 25): Learn the Basics
+- Research what Mixed Precision is and what it is used for.
+- Understand the differences between types of precision: FP32 (single), FP64 (double), FP16 (half).
+- Read simple examples of Mixed Precision in computing programs.
+
+## Month 2 (May 26 - June 25): First Tests
+- Create a program that calculates propagators using only full precision (FP64).
+- Test that the program works correctly.
+- Modify parts of the program to use single precision (FP32) and compare results.
+- Note if the program runs faster or uses less memory.
+
+## Month 3 (June 26 - July 25): Improve and Analyze
+- Identify where low precision can be used without losing good result quality.
+- Measure the execution time and memory usage in different tests.
+- Learn to use tools to see where the program spends more time.
+
+## Month 4 (July 26 - August 25): Apply it to the Real Problem
+- Use the knowledge gained to perform propagator contractions.
+- Ensure that using Mixed Precision does not significantly change physical results.
+- If there are precision problems, correct them by adjusting where high precision is used.
+
+## Month 5 (August 26 - September 25): Write and Organize Everything
+- Write a simple report explaining what was done.
+- Show comparisons of time and precision.
+- Include graphs if possible.
+
+## Month 6 (September 26 - October 25): Test and Present
+- Conduct final tests on a large computer if available.
+- Prepare a presentation or a small article.
+- Share what was achieved and how Mixed Precision helped.
